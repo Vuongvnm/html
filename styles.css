@@ -1,0 +1,128 @@
+.header{
+    background-color: green;
+    height: 100px;
+}
+
+.img{
+    padding: 15px 20px;
+}
+
+.input{
+    float: right;
+    margin-top: 35px;
+    margin-right: 150px;
+    padding-right: 100px;
+}
+
+.button{
+    float: right; 
+    position: relative;
+    left: 350px;
+    top: 35px;
+    background-color: purple;
+    color: white;
+}
+
+.button:hover{
+    color: yellow;
+}
+
+.nav{
+    background-color: rgb(104, 104, 210);
+    height: 60px;
+    margin-top: 10px;
+}
+
+.a{
+    position: relative;
+    left: 420px;
+    top: 17px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.article1>h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.article1>div{
+    background-color: white;
+    border: 1px solid black;
+    width: 30%;
+    display: inline-block;
+    margin: 44px;
+    position: relative;
+    bottom: 100px;
+}
+
+.pic{
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.pic1{
+    padding-left: 10px;
+    padding-top: 17px;
+}
+
+.first-p{
+    font-size: larger;
+    color: red;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.second-p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+li{
+    font-weight: bold;
+}
+
+.article1>img{
+    height: 600px;
+    position: relative;
+    bottom: 60px;
+    margin: 20px;
+    left: 28px;
+}
+
+.article2{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lone-p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer{
+    background-color: green;
+    height: 90px;
+}
+
+footer>p{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: larger;
+}
